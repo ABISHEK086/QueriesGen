@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Admin">Admin</string> <!-- Assign value to Admin string -->
+    <string name="dmin">Admin</string>
+    <string name="Staffs">Staffs</string>
+    <string name="Students">Students</string>
+    <string name="welcome_admin">Welcome, Admin!</string>
+    <string name="logo">logo</string>
+    <string name="welcomestaff">Welcome Staff</string>
+    <string name="welcome_dmin">Welcome Student</string>
+    <string name="welcome_min">Welcome !</string>
+    <string name="welcome">Welcome !</string>
+    <string name="welcome_n">Welcome !</string>
+    <string name="register">Register</string>
+    <string name="wel_come">Welcome</string>
+    <string name="centered_image">Centered Image</string>
+    <string name="delete_admin">Delete Admin</string>
+    <string name="create_your_question_paper">Create your Question Paper</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="select_difficulty_level">Select Difficulty Level</string>
+    <string name="create_question">Create Question</string>
+
+</resources>

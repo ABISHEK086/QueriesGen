@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Centered TextView -->
+    <TextView
+        android:id="@+id/top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/center_image"
+        android:text="@string/wel_come"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <!-- ImageView at the center -->
+    <ImageView
+        android:id="@+id/center_image"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/school"
+        android:contentDescription="@string/centered_image" />
+
+    <!-- Button at the bottom -->
+    <Button
+        android:id="@+id/bottom_button"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#FFF8F8"
+        android:text="Get started"
+        android:textColor="#070203"
+        android:textSize="20sp"
+        android:padding="20dp" />
+
+</RelativeLayout>
