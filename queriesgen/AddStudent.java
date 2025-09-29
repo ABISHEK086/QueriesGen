@@ -46,8 +46,6 @@ public class AddStudent extends AppCompatActivity {
         }
 
         progressBar.setVisibility(View.VISIBLE);
-
-        // Store student details in Firebase Database
         String studentId = databaseReference.push().getKey();
         Student student = new Student(username, password);
 
