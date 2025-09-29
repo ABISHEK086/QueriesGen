@@ -103,7 +103,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" /> <!-- Launch Activity -->
+            android:exported="false" /> 
         <activity
             android:name=".Front"
             android:exported="true">
@@ -117,3 +117,4 @@
 
 
 </manifest>
+
