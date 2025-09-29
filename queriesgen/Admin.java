@@ -15,8 +15,10 @@ public class Admin {
         return email;
     }
 
+
     public String getRole() {
         return role;
     }
 }
+
 
