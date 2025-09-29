@@ -49,7 +49,7 @@
         <activity
             android:name=".create_question"
             android:exported="false"
-            tools:ignore="MissingClass" /> <!-- AddAdmin Activity (Now properly declared and exported for navigation) -->
+            tools:ignore="MissingClass" /> 
         <activity
             android:name=".AddAdmin"
             android:exported="true" />
@@ -114,5 +114,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>
