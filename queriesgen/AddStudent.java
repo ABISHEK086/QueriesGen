@@ -22,8 +22,6 @@ public class AddStudent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_student);
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("students");
-
-        // Initialize UI elements
         usernameField = findViewById(R.id.username);
         passwordField = findViewById(R.id.password);
         registerButton = findViewById(R.id.loginButton);
