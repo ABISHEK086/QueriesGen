@@ -57,7 +57,6 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
         }
     }
 
-    // Method to delete an admin from Firebase
     private void deleteAdminFromFirebase(Admin admin, int position, ViewHolder holder) {
         if (position >= 0 && position < adminList.size()) {  // Ensure valid position
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("users").child("admins");
@@ -84,4 +83,5 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
         }
     }
 }
+
 
