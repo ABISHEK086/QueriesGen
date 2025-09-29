@@ -65,7 +65,6 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
                 if (task.isSuccessful() && task.getResult().exists()) {
                     for (DataSnapshot snapshot : task.getResult().getChildren()) {
                         snapshot.getRef().removeValue().addOnSuccessListener(aVoid -> {
-                            // Remove from the local list and notify adapter
                             adminList.remove(position);
                             notifyItemRemoved(position);
                             notifyItemRangeChanged(position, adminList.size());
@@ -83,6 +82,7 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
         }
     }
 }
+
 
 
 
