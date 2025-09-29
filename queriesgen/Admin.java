@@ -4,7 +4,6 @@ public class Admin {
     private String email;
     private String role;
 
-    // Default constructor required for Firebase
     public Admin() {}
 
     public Admin(String email, String role) {
@@ -20,3 +19,4 @@ public class Admin {
         return role;
     }
 }
+
