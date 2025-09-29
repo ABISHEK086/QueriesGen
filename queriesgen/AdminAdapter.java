@@ -60,7 +60,6 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
     private void deleteAdminFromFirebase(Admin admin, int position, ViewHolder holder) {
         if (position >= 0 && position < adminList.size()) {  
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("users").child("admins");
-
             databaseReference.orderByChild("email").equalTo(admin.getEmail()).get().addOnCompleteListener(task -> {
                 if (task.isSuccessful() && task.getResult().exists()) {
                     for (DataSnapshot snapshot : task.getResult().getChildren()) {
@@ -82,6 +81,7 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
         }
     }
 }
+
 
 
 
