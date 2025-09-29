@@ -37,7 +37,6 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
         holder.emailTextView.setText("Email: " + admin.getEmail());
         holder.roleTextView.setText("Role: " + admin.getRole());
 
-        // Delete Button Click Event
         holder.deleteAdmin.setOnClickListener(v -> deleteAdminFromFirebase(admin, position, holder));
     }
 
@@ -85,3 +84,4 @@ public class AdminAdapter extends RecyclerView.Adapter<AdminAdapter.ViewHolder> 
         }
     }
 }
+
