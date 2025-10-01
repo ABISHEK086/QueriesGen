@@ -30,7 +30,7 @@ public class CreatedQuestion extends AppCompatActivity {
             subjectText.setText("Subject: " + selectedSubject);
             difficultyText.setText("Difficulty: " + selectedDifficulty);
 
-            // Construct the filename (e.g., "tamil-low.pdf")
+          
             fileName = selectedSubject.toLowerCase() + "-" + selectedDifficulty.toLowerCase() + ".pdf";
 
             // Save the PDF immediately when the question is created
