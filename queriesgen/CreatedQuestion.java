@@ -21,7 +21,7 @@ public class CreatedQuestion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_created_question);
-  subjectText = findViewById(R.id.subject_text);
+        subjectText = findViewById(R.id.subject_text);
         difficultyText = findViewById(R.id.difficulty_text);
         pdfOpenText = findViewById(R.id.pdf_open_text); // Clickable TextView to open PDF
 
