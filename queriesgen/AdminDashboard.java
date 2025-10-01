@@ -22,7 +22,6 @@ public class AdminDashboard extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
 CardView addAdminCard = findViewById(R.id.addAdminCard);
         CardView addStaffCard = findViewById(R.id.addStaffCard);
         CardView viewAdminCard = findViewById(R.id.viewAdminCard);
