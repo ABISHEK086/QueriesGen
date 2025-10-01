@@ -68,7 +68,6 @@ public class CreatedQuestion extends AppCompatActivity {
         try {
             File file = new File(getFilesDir(), fileName);
 
-            // Use FileProvider to get the URI
             Uri pdfUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", file);
 
             // Open the PDF using an Intent
