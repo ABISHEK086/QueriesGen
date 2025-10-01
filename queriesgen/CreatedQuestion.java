@@ -33,7 +33,6 @@ public class CreatedQuestion extends AppCompatActivity {
           
             fileName = selectedSubject.toLowerCase() + "-" + selectedDifficulty.toLowerCase() + ".pdf";
 
-            // Save the PDF immediately when the question is created
             savePdfToInternalStorage(fileName);
 
             pdfOpenText.setText("Click to Open " + fileName);
