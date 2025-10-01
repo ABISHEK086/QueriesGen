@@ -37,7 +37,6 @@ public class CreatedQuestion extends AppCompatActivity {
 
             pdfOpenText.setText("Click to Open " + fileName);
 
-            // Open PDF when clicked
             pdfOpenText.setOnClickListener(view -> openPDF(fileName));
         } else {
             subjectText.setText("No subject selected");
