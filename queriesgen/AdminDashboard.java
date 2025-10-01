@@ -29,7 +29,6 @@ public class AdminDashboard extends AppCompatActivity {
         CardView manageAdminCard = findViewById(R.id.manageAdminCard);
         CardView manageStaffCard = findViewById(R.id.manageStaffCard);
 
-        // Setting Click Listeners
         addAdminCard.setOnClickListener(view -> openActivity(AddAdmin.class));
         addStaffCard.setOnClickListener(view -> openActivity(AddStaff.class));
         viewAdminCard.setOnClickListener(view -> openActivity(ViewAdmin.class));
