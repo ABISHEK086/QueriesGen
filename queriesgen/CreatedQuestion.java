@@ -25,7 +25,7 @@ public class CreatedQuestion extends AppCompatActivity {
         difficultyText = findViewById(R.id.difficulty_text);
         pdfOpenText = findViewById(R.id.pdf_open_text); 
 
-        // Get data from the Intent
+
         String selectedSubject = getIntent().getStringExtra("subject");
         String selectedDifficulty = getIntent().getStringExtra("difficulty");
 
