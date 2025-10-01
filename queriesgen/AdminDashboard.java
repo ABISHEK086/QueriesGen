@@ -23,7 +23,7 @@ public class AdminDashboard extends AppCompatActivity {
             return insets;
         });
 
-        // Finding CardViews
+ 
         CardView addAdminCard = findViewById(R.id.addAdminCard);
         CardView addStaffCard = findViewById(R.id.addStaffCard);
         CardView viewAdminCard = findViewById(R.id.viewAdminCard);
