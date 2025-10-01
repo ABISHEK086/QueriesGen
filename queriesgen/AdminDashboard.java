@@ -37,7 +37,7 @@ public class AdminDashboard extends AppCompatActivity {
         manageStaffCard.setOnClickListener(view -> openActivity(ManageStaff.class));
     }
 
-    // Method to Open Activity
+
     private void openActivity(Class<?> activityClass) {
         Intent intent = new Intent(AdminDashboard.this, activityClass);
         startActivity(intent);
