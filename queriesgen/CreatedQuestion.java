@@ -69,8 +69,7 @@ public class CreatedQuestion extends AppCompatActivity {
             File file = new File(getFilesDir(), fileName);
 
             Uri pdfUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", file);
-
-            // Open the PDF using an Intent
+            
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setDataAndType(pdfUri, "application/pdf");
             intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
