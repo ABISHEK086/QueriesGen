@@ -19,7 +19,7 @@ public class Front extends AppCompatActivity {
             public void onClick(View v) {
               
                 Intent intent = new Intent(Front.this, MainActivity.class);
-                startActivity(intent); // Start the activity
+                startActivity(intent); 
             }
         });
     }
