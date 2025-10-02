@@ -12,7 +12,7 @@ public class Front extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_front); // Make sure the correct layout file is set
+        setContentView(R.layout.activity_front);
 
 
         Button getStartedButton = findViewById(R.id.bottom_button);
