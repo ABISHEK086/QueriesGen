@@ -14,7 +14,7 @@ public class Front extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_front);
         Button getStartedButton = findViewById(R.id.bottom_button);
-     getStartedButton.setOnClickListener(new View.OnClickListener() {
+      getStartedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Create an Intent to navigate to SecondActivity
