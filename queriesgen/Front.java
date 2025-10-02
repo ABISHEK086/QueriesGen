@@ -15,7 +15,7 @@ public class Front extends AppCompatActivity {
         setContentView(R.layout.activity_front);
 
 
-    Button getStartedButton = findViewById(R.id.bottom_button);
+Button getStartedButton = findViewById(R.id.bottom_button);
 
 
         getStartedButton.setOnClickListener(new View.OnClickListener() {
