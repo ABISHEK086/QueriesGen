@@ -17,7 +17,7 @@ public class Front extends AppCompatActivity {
 
         Button getStartedButton = findViewById(R.id.bottom_button);
 
-        // Set an OnClickListener for the button
+
         getStartedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
