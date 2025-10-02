@@ -14,7 +14,6 @@ public class Front extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_front);
 
-
 Button getStartedButton = findViewById(R.id.bottom_button);
 
 
