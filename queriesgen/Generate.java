@@ -34,7 +34,6 @@ public class Generate extends AppCompatActivity {
         pdfStatusText = findViewById(R.id.pdf_status_text);
         openPdfButton = findViewById(R.id.open_pdf_button);
 
-        // Set
         String[] subjects = {"Tamil", "English", "Maths", "Science", "Social"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, subjects);
         subjectSpinner.setAdapter(adapter);
