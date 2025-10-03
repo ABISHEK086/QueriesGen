@@ -82,7 +82,7 @@ public class GenerateQuestion extends AppCompatActivity {
                 openPdfButton.setVisibility(View.VISIBLE);
                 selectedPdfFileName = fileName; 
                 pdfExists = true;
-                break;  // Stop checking if at least one PDF exists
+                break; 
             }
         }
 
