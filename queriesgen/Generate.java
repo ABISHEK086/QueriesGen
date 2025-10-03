@@ -66,7 +66,7 @@ public class Generate extends AppCompatActivity {
                 pdfStatusText.setText("PDF Available: " + subject + "-" + difficulty + ".pdf");
                 openPdfButton.setVisibility(View.VISIBLE);
                 pdfExists = true;
-                break;  // Stop checking if at least one PDF exists
+                break; 
             }
         }
 
