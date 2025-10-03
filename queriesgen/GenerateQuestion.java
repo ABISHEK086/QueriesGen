@@ -42,8 +42,6 @@ public class GenerateQuestion extends AppCompatActivity {
         String[] subjects = {"Tamil", "English", "Maths", "Science", "Social"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, subjects);
         subjectSpinner.setAdapter(adapter);
-
-        // Handle Subject Selection
         subjectSpinner.setOnItemSelectedListener(new android.widget.AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(android.widget.AdapterView<?> parent, View view, int position, long id) {
