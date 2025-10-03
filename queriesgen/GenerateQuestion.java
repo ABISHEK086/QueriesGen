@@ -34,7 +34,6 @@ public class GenerateQuestion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_generate_question);
 
-        // Initialize views
         subjectSpinner = findViewById(R.id.subject_spinner);
         pdfStatusText = findViewById(R.id.pdf_status_text);
         openPdfButton = findViewById(R.id.open_pdf_button);
