@@ -80,7 +80,7 @@ public class GenerateQuestion extends AppCompatActivity {
             if (pdfFile.exists()) {
                 pdfStatusText.setText("PDF Available: " + fileName);
                 openPdfButton.setVisibility(View.VISIBLE);
-                selectedPdfFileName = fileName; // Store only file name
+                selectedPdfFileName = fileName; 
                 pdfExists = true;
                 break;  // Stop checking if at least one PDF exists
             }
