@@ -113,7 +113,7 @@ public class GenerateQuestion extends AppCompatActivity {
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
         Set<String> pdfSet = sharedPreferences.getStringSet("my_questions", new HashSet<>());
-        pdfSet.add(fileName);  // Save only the file name (e.g., "tamil-low.pdf")
+        pdfSet.add(fileName);
 
         editor.putStringSet("my_questions", pdfSet);
         editor.apply();
