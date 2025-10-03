@@ -45,7 +45,7 @@ public class GenerateQuestion extends AppCompatActivity {
         subjectSpinner.setOnItemSelectedListener(new android.widget.AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(android.widget.AdapterView<?> parent, View view, int position, long id) {
-                selectedSubject = subjects[position].toLowerCase(); // Convert to lowercase for consistency
+                selectedSubject = subjects[position].toLowerCase(); 
                 checkPdfAvailability(selectedSubject);
             }
 
