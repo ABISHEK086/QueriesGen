@@ -39,7 +39,6 @@ public class GenerateQuestion extends AppCompatActivity {
         openPdfButton = findViewById(R.id.open_pdf_button);
         generateButton = findViewById(R.id.generate_button);
 
-        // Set up Spinner
         String[] subjects = {"Tamil", "English", "Maths", "Science", "Social"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, subjects);
         subjectSpinner.setAdapter(adapter);
