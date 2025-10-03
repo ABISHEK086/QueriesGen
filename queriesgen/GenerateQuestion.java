@@ -26,7 +26,7 @@ public class GenerateQuestion extends AppCompatActivity {
     private Button openPdfButton, generateButton;
     private String selectedSubject;
     private String pdfFilePath;
-    private String selectedPdfFileName; // Store only 
+    private String selectedPdfFileName; 
 
     @SuppressLint("MissingInflatedId")
     @Override
