@@ -56,7 +56,7 @@ public class GenerateQuestion extends AppCompatActivity {
             }
         });
 
-        // Open PDF Button Click
+    
         openPdfButton.setOnClickListener(view -> openPDF());
 
         // Generate Button Click - Save PDF in MyQuestions
