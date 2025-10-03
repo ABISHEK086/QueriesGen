@@ -28,8 +28,6 @@ public class Generate extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_generate);
-
-        
         subjectSpinner = findViewById(R.id.subject_spinner);
         pdfStatusText = findViewById(R.id.pdf_status_text);
         openPdfButton = findViewById(R.id.open_pdf_button);
