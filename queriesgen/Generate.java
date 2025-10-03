@@ -51,7 +51,7 @@ public class Generate extends AppCompatActivity {
             }
         });
 
-        // Open PDF Button Click
+
         openPdfButton.setOnClickListener(view -> openPDF());
     }
 
