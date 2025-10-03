@@ -58,8 +58,6 @@ public class GenerateQuestion extends AppCompatActivity {
 
     
         openPdfButton.setOnClickListener(view -> openPDF());
-
-        // Generate Button 
         generateButton.setOnClickListener(view -> {
             if (selectedPdfFileName != null) {
                 savePdfToMyQuestions(selectedPdfFileName);
