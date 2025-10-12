@@ -26,7 +26,6 @@ public class LoginStaff extends AppCompatActivity {
         
         mAuth = FirebaseAuth.getInstance();
 
-        // Initialize V
         emailEditText = findViewById(R.id.email);
         passwordEditText = findViewById(R.id.password);
         Button loginButton = findViewById(R.id.loginButton);
