@@ -23,7 +23,7 @@ public class LoginStaff extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_staff);
 
-        // Initial
+        // Initia
         mAuth = FirebaseAuth.getInstance();
 
         // Initialize Views
