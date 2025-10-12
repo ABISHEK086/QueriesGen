@@ -50,7 +50,6 @@ public class LoginStaff extends AppCompatActivity {
                             Log.d("LoginDebug", "Login successful for: " + user.getEmail());
                             Toast.makeText(LoginStaff.this, "Login Successful!", Toast.LENGTH_SHORT).show();
 
-                            // Navigate to StaffDashboard
                             Intent intent = new Intent(LoginStaff.this, StaffDashboard.class);
                             startActivity(intent);
                             finish();
