@@ -29,7 +29,7 @@ public class LoginStaff extends AppCompatActivity {
         passwordEditText = findViewById(R.id.password);
         Button loginButton = findViewById(R.id.loginButton);
 
-        // Login Button Click Listener
+
         loginButton.setOnClickListener(v -> {
             String enteredEmail = emailEditText.getText().toString().trim();
             String enteredPassword = passwordEditText.getText().toString().trim();
