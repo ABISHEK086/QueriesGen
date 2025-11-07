@@ -1,4 +1,4 @@
-package com.example.queriesgen;
+package com.example.queriesgen; 
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -40,7 +40,6 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHold
         String studentName = studentList.get(position);
         holder.studentUsername.setText(studentName);
 
-        // Delete student on button click
         holder.deleteStudent.setOnClickListener(v -> {
             databaseReference.orderByChild("username").equalTo(studentName)
                     .addListenerForSingleValueEvent(new ValueEventListener() {
@@ -82,3 +81,4 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHold
         }
     }
 }
+
