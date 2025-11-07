@@ -1,4 +1,4 @@
-package com.example.queriesgen; 
+package com.example.queriesgen;  
  
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater; 
@@ -81,6 +81,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHold
         }
     }
 }
+
 
 
 
