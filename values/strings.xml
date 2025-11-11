@@ -1,7 +1,7 @@
 <resources>     
     <string name="app_name">My Application</string>  
     <string name="Admin">Admin</string>         
-    <string name="dmin">Admin</string>                    
+    <string name="dmin">Admin</string>                     
     <string name="Staffs">Staffs</string>                
     <string name="Students">Students</string> 
     <string name="welcome_admin">Welcome, Admin!</string>
