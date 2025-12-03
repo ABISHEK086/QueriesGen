@@ -1,7 +1,7 @@
 package com.example.queriesgen;
  
 public class Admin {
-    private String email;
+    private String email; 
     private String role;     
  
     public Admin() {}
@@ -20,6 +20,7 @@ public class Admin {
         return role;
     }
 }
+
 
 
 
