@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;      
 import androidx.recyclerview.widget.RecyclerView;   
 import java.util.List;
-
+ 
 public class AdminAdapter2 extends RecyclerView.Adapter<AdminAdapter2.ViewHolder> {
 
     private List<Admin> adminList;
@@ -45,6 +45,7 @@ public class AdminAdapter2 extends RecyclerView.Adapter<AdminAdapter2.ViewHolder
         }
     }
 }
+
 
 
 
