@@ -2,7 +2,7 @@ package com.example.queriesgen;
 
 import android.view.LayoutInflater;
 import android.view.View; 
-import android.view.ViewGroup;
+import android.view.ViewGroup; 
 import android.widget.TextView;   
 import androidx.annotation.NonNull; 
 import androidx.recyclerview.widget.RecyclerView;  
@@ -45,6 +45,7 @@ public class AdminAdapter2 extends RecyclerView.Adapter<AdminAdapter2.ViewHolder
         }
     }
 }
+
 
 
 
