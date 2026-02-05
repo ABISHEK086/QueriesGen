@@ -2,7 +2,7 @@ package com.example.queriesgen;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.view.View; 
 import androidx.activity.EdgeToEdge;  
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
