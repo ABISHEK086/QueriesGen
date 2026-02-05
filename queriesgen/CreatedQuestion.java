@@ -1,7 +1,7 @@
 package com.example.queriesgen;
 
 import android.content.Intent;
-import android.net.Uri;
+import android.net.Uri; 
 import android.os.Bundle;
 import android.widget.TextView; 
 import android.widget.Toast; 
