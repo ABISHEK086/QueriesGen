@@ -23,7 +23,7 @@ public class CreatedQuestion extends AppCompatActivity {
         setContentView(R.layout.activity_created_question);
         subjectText = findViewById(R.id.subject_text);
         difficultyText = findViewById(R.id.difficulty_text);
-        pdfOpenText = findViewById(R.id.pdf_open_text); 
+        pdfOpenText = findViewById(R.id.pdf_open_text);
         String selectedSubject = getIntent().getStringExtra("subject");
         String selectedDifficulty = getIntent().getStringExtra("difficulty");
         if (selectedSubject != null && selectedDifficulty != null) {
