@@ -14,7 +14,7 @@ public class StudentDashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+        EdgeToEdge.enable(this); 
         setContentView(R.layout.activity_student_dashboard);
 
         generateQuestionCard = findViewById(R.id.generate_question_card);
