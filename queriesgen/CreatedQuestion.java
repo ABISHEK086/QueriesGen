@@ -3,7 +3,7 @@ package com.example.queriesgen;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.widget.TextView; 
 import android.widget.Toast; 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
