@@ -27,7 +27,7 @@ public class CreatedQuestion extends AppCompatActivity {
         String selectedSubject = getIntent().getStringExtra("subject");
         String selectedDifficulty = getIntent().getStringExtra("difficulty");
         if (selectedSubject != null && selectedDifficulty != null) {
-            subjectText.setText("Subject: " + selectedSubject);
+            subjectText.setText("Subject: " + selectedSubject);    
             difficultyText.setText("Difficulty: " + selectedDifficulty);
 
           
