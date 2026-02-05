@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-
+ 
 public class StudentDashboard extends AppCompatActivity {
 
     private CardView generateQuestionCard, myQuestionsCard;
