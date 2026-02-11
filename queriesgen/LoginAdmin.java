@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginAdmin extends AppCompatActivity {
-
+ 
     private EditText emailEditText, passwordEditText;
     private Button loginButton;
     private ProgressBar progressBar;
