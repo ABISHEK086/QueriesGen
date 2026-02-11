@@ -51,7 +51,7 @@ public class LoginAdmin extends AppCompatActivity {
     }
 
     private void authenticateAdmin(String enteredEmail, String enteredPassword) {
-        progressBar.setVisibility(View.VISIBLE);
+        progressBar.setVisibility(View.VISIBLE); 
 
         mAuth.signInWithEmailAndPassword(enteredEmail, enteredPassword)
                 .addOnCompleteListener(task -> {
